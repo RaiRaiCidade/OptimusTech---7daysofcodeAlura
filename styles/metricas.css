@@ -1,0 +1,27 @@
+.metricas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 8em 6em 0 6em;
+  font-family: var(--fonte-principal);
+  width: auto;
+}
+
+.metricas__numero {
+  font-weight: 600;
+  font-size: 3.75rem;
+  color: var(--vermelho-botao);
+}
+
+.metricas__categoria {
+  font-weight: 500;
+  color: var(--cor-titulos);
+  font-size: 1.125rem;
+  margin-top: 1em;
+}
+
+.metricas__descricao {
+  color: var(--cor-texto);
+  margin-top: 0.5em;
+  text-align: justify;
+}

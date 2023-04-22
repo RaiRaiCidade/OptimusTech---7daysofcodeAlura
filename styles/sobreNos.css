@@ -1,0 +1,25 @@
+.sobre-Nos {
+  margin-top: 5em;
+  font-family: var(--fonte-principal);
+}
+
+.sobre-Nos__intro {
+  text-align: center;
+  color: var(--vermelho-botao);
+  font-weight: 600;
+  margin-bottom: 1.5em;
+}
+
+.sobre-nos__titulo {
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0.8em;
+}
+
+.sobre-nos__texto {
+  text-align: center;
+  margin: 0 0 2em 0;
+  color: var(--cor-texto);
+  font-size: 1.25rem;
+}

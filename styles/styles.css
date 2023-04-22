@@ -1,0 +1,29 @@
+@import url("./cabecalho.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+@import url("./sobreNos.css");
+@import url("./metricas.css");
+@import url("./vagas.css");
+@import url("./colaboradores.css");
+@import url("./footer.css");
+:root {
+  --fonte-principal: "Inter", sans-serif;
+  --cor-primaria: #ffffff;
+  --vermelho-botao: #832424;
+  --botao-secundario: rgba(142, 36, 36, 0.05);
+  --cor-titulos: #101828;
+  --cor-texto: #667085;
+  --background-sessaodois: rgba(196, 25, 25, 0.03);
+  --cor-logotitulo: #3a404e;
+  --cor-hoverCadrastro: #f7f3f3;
+  --cor-bordaVagas: #eaecf0;
+  --cor-sessao2: #e0969617;
+  --cor-footer: #f9fafb;
+  --cor-copyright: #98a2b3;
+}
+
+.body {
+  font-family: var(--fonte-principal);
+  font-size: 1rem;
+  background-color: var(--cor-primaria);
+  font-weight: 400;
+}
